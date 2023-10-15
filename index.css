@@ -1,0 +1,165 @@
+
+/* *******Layout****** */
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    width: 390px;
+    height: 844px;
+    background: #1B1924;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container,
+#endorsements-container,
+.space,
+.input-wrapper  {
+    display: flex;
+}
+
+.hero-image {
+    width: 90px;
+    margin-top: 51px;
+}
+
+
+.hero-title,
+.endorsement-title,
+h4,p,.heart {
+    margin: 0;
+}
+
+.textarea-el,
+.input,
+.publish-btn {
+    border: none;
+}
+
+.textarea-el,
+.input,
+.publish-btn {
+     border-radius: 8px;
+}
+
+.textarea-el {
+    width: 317px;
+    height: 118px;
+    flex-shrink: 0;
+    background: #444059;
+    resize: none;
+    margin-top: 19px;
+    padding: 12px 16px;
+    text-indent: 3px;
+    font-weight: bold;
+}
+
+.input-wrapper {
+    margin-top: 9px;
+    gap: 9px;
+}
+
+.input {
+    width: 153px;
+    height: 40px;
+    background: #444059;
+    padding: 7px;
+}
+
+.input:focus:invalid {
+    border: 2px solid red;
+}
+
+#endorsements-container {
+    flex-direction: column-reverse;
+}
+
+.endorsement {
+    width: 317px;
+    background: #FFF;
+    padding: 13px;
+    margin-bottom: 13px;
+    font-family: Inter;
+    font-size: 14px;
+}
+/* *********Typography*********** */
+.hero-title {
+    margin-top: 17px;
+    font-size: 25px;
+}
+
+.hero-title,
+.textarea-el,
+.endorsement-title,
+.input {
+    color: #fff;
+}
+
+.input,
+.textarea-el,
+.publish-btn{
+    font-family: Josefin Sans;
+}
+
+.input,
+.publish-btn {
+    text-align: center;
+}
+
+.publish-btn{
+    width: 315px;
+    height: 50px;
+    margin-top: 13px;
+    color: #04131C;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #28A9F1;
+    flex-shrink: 0;
+}
+
+.publish-btn:focus {
+    outline-color: whitesmoke;
+    outline-style: groove;
+    color: #28A9F1;
+    background: #04131C;
+}
+
+.endorsement-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 19px;
+}
+
+h4 {
+    color: #1B1924;
+}
+
+ p {
+    margin-top: 13px;
+    margin-bottom: 8px;
+    color: #1B1924;
+}
+    
+.heart {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.space {
+    justify-content: space-between;
+}
+
+
+
